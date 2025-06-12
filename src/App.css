@@ -1,0 +1,46 @@
+.App{
+  font-family: Comic Sans MS, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.user-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.html,body{
+  justify-content: center;
+  display: flex;
+}
+
+.pagination-button {
+  background-color: #4e4b66;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination-button:hover {
+  background-color: #6c63ff;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-button.prev {
+  background-color: #7f78bd;
+}
+
+.pagination-button.next {
+  background-color: #7f78bd;
+}
